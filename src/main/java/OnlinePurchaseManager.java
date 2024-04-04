@@ -29,8 +29,8 @@ public class OnlinePurchaseManager
       return false;
     }
     for (int i = 0; i < purchases.size() -1; i++){
-      Gimzo a = purchases.get(i);
-      Gimzo b = purchases.get(i+1);
+      Gizmo a = purchases.get(i);
+      Gizmo b = purchases.get(i+1);
       if (a.equals(b)){
         return true;
       }
